@@ -13,7 +13,41 @@
 		E0A864E62C5D2344005827D1 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E0A864E52C5D2344005827D1 /* Base */; };
 		E0A864E82C5D2345005827D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0A864E72C5D2345005827D1 /* Assets.xcassets */; };
 		E0A864EB2C5D2345005827D1 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E0A864EA2C5D2345005827D1 /* Base */; };
+		E0A864F92C5D235D005827D1 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0A864F82C5D235D005827D1 /* WidgetKit.framework */; };
+		E0A864FB2C5D235D005827D1 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0A864FA2C5D235D005827D1 /* SwiftUI.framework */; };
+		E0A864FE2C5D235D005827D1 /* EwanoWalletWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A864FD2C5D235D005827D1 /* EwanoWalletWidgetBundle.swift */; };
+		E0A865002C5D235D005827D1 /* EwanoWalletWidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A864FF2C5D235D005827D1 /* EwanoWalletWidgetLiveActivity.swift */; };
+		E0A865022C5D235D005827D1 /* EwanoWalletWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A865012C5D235D005827D1 /* EwanoWalletWidget.swift */; };
+		E0A865042C5D235D005827D1 /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A865032C5D235D005827D1 /* AppIntent.swift */; };
+		E0A865062C5D235E005827D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0A865052C5D235E005827D1 /* Assets.xcassets */; };
+		E0A8650A2C5D235E005827D1 /* EwanoWalletWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = E0A864F62C5D235D005827D1 /* EwanoWalletWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E0D10BC12C5E3F9700CBE4CA /* ForegroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D10BBF2C5E3F5A00CBE4CA /* ForegroundView.swift */; };
+		E0D10BC32C5E3FCE00CBE4CA /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D10BC22C5E3FCE00CBE4CA /* BackgroundView.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E0A865082C5D235E005827D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0A864D32C5D2344005827D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0A864F52C5D235D005827D1;
+			remoteInfo = EwanoWalletWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E0A8650E2C5D235E005827D1 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E0A8650A2C5D235E005827D1 /* EwanoWalletWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		E0A864DB2C5D2344005827D1 /* EwanoWidget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EwanoWidget.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,6 +58,17 @@
 		E0A864E72C5D2345005827D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0A864EA2C5D2345005827D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E0A864EC2C5D2345005827D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0A864F62C5D235D005827D1 /* EwanoWalletWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = EwanoWalletWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0A864F82C5D235D005827D1 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		E0A864FA2C5D235D005827D1 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		E0A864FD2C5D235D005827D1 /* EwanoWalletWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EwanoWalletWidgetBundle.swift; sourceTree = "<group>"; };
+		E0A864FF2C5D235D005827D1 /* EwanoWalletWidgetLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EwanoWalletWidgetLiveActivity.swift; sourceTree = "<group>"; };
+		E0A865012C5D235D005827D1 /* EwanoWalletWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EwanoWalletWidget.swift; sourceTree = "<group>"; };
+		E0A865032C5D235D005827D1 /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
+		E0A865052C5D235E005827D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E0A865072C5D235E005827D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0D10BBF2C5E3F5A00CBE4CA /* ForegroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForegroundView.swift; sourceTree = "<group>"; };
+		E0D10BC22C5E3FCE00CBE4CA /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +79,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E0A864F32C5D235D005827D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0A864FB2C5D235D005827D1 /* SwiftUI.framework in Frameworks */,
+				E0A864F92C5D235D005827D1 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -41,6 +95,8 @@
 			isa = PBXGroup;
 			children = (
 				E0A864DD2C5D2344005827D1 /* EwanoWidget */,
+				E0A864FC2C5D235D005827D1 /* EwanoWalletWidget */,
+				E0A864F72C5D235D005827D1 /* Frameworks */,
 				E0A864DC2C5D2344005827D1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				E0A864DB2C5D2344005827D1 /* EwanoWidget.app */,
+				E0A864F62C5D235D005827D1 /* EwanoWalletWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,6 +124,30 @@
 			path = EwanoWidget;
 			sourceTree = "<group>";
 		};
+		E0A864F72C5D235D005827D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0A864F82C5D235D005827D1 /* WidgetKit.framework */,
+				E0A864FA2C5D235D005827D1 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0A864FC2C5D235D005827D1 /* EwanoWalletWidget */ = {
+			isa = PBXGroup;
+			children = (
+				E0A864FD2C5D235D005827D1 /* EwanoWalletWidgetBundle.swift */,
+				E0A864FF2C5D235D005827D1 /* EwanoWalletWidgetLiveActivity.swift */,
+				E0A865012C5D235D005827D1 /* EwanoWalletWidget.swift */,
+				E0D10BBF2C5E3F5A00CBE4CA /* ForegroundView.swift */,
+				E0D10BC22C5E3FCE00CBE4CA /* BackgroundView.swift */,
+				E0A865032C5D235D005827D1 /* AppIntent.swift */,
+				E0A865052C5D235E005827D1 /* Assets.xcassets */,
+				E0A865072C5D235E005827D1 /* Info.plist */,
+			);
+			path = EwanoWalletWidget;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,15 +158,34 @@
 				E0A864D72C5D2344005827D1 /* Sources */,
 				E0A864D82C5D2344005827D1 /* Frameworks */,
 				E0A864D92C5D2344005827D1 /* Resources */,
+				E0A8650E2C5D235E005827D1 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				E0A865092C5D235E005827D1 /* PBXTargetDependency */,
 			);
 			name = EwanoWidget;
 			productName = EwanoWidget;
 			productReference = E0A864DB2C5D2344005827D1 /* EwanoWidget.app */;
 			productType = "com.apple.product-type.application";
+		};
+		E0A864F52C5D235D005827D1 /* EwanoWalletWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0A8650B2C5D235E005827D1 /* Build configuration list for PBXNativeTarget "EwanoWalletWidgetExtension" */;
+			buildPhases = (
+				E0A864F22C5D235D005827D1 /* Sources */,
+				E0A864F32C5D235D005827D1 /* Frameworks */,
+				E0A864F42C5D235D005827D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EwanoWalletWidgetExtension;
+			productName = EwanoWalletWidgetExtension;
+			productReference = E0A864F62C5D235D005827D1 /* EwanoWalletWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -98,6 +198,9 @@
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
 					E0A864DA2C5D2344005827D1 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					E0A864F52C5D235D005827D1 = {
 						CreatedOnToolsVersion = 15.4;
 					};
 				};
@@ -116,6 +219,7 @@
 			projectRoot = "";
 			targets = (
 				E0A864DA2C5D2344005827D1 /* EwanoWidget */,
+				E0A864F52C5D235D005827D1 /* EwanoWalletWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -128,6 +232,14 @@
 				E0A864E82C5D2345005827D1 /* Assets.xcassets in Resources */,
 				E0A864EB2C5D2345005827D1 /* Base in Resources */,
 				E0A864E62C5D2344005827D1 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0A864F42C5D235D005827D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0A865062C5D235E005827D1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,7 +256,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E0A864F22C5D235D005827D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0D10BC32C5E3FCE00CBE4CA /* BackgroundView.swift in Sources */,
+				E0D10BC12C5E3F9700CBE4CA /* ForegroundView.swift in Sources */,
+				E0A865002C5D235D005827D1 /* EwanoWalletWidgetLiveActivity.swift in Sources */,
+				E0A865042C5D235D005827D1 /* AppIntent.swift in Sources */,
+				E0A864FE2C5D235D005827D1 /* EwanoWalletWidgetBundle.swift in Sources */,
+				E0A865022C5D235D005827D1 /* EwanoWalletWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E0A865092C5D235E005827D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0A864F52C5D235D005827D1 /* EwanoWalletWidgetExtension */;
+			targetProxy = E0A865082C5D235E005827D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		E0A864E42C5D2344005827D1 /* Main.storyboard */ = {
@@ -288,6 +421,7 @@
 		E0A864F02C5D2345005827D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -316,6 +450,7 @@
 		E0A864F12C5D2345005827D1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -341,6 +476,62 @@
 			};
 			name = Release;
 		};
+		E0A8650C2C5D235E005827D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NA979M4P72;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EwanoWalletWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = EwanoWalletWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.EwanoWidget.EwanoWalletWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E0A8650D2C5D235E005827D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NA979M4P72;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EwanoWalletWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = EwanoWalletWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.EwanoWidget.EwanoWalletWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -358,6 +549,15 @@
 			buildConfigurations = (
 				E0A864F02C5D2345005827D1 /* Debug */,
 				E0A864F12C5D2345005827D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0A8650B2C5D235E005827D1 /* Build configuration list for PBXNativeTarget "EwanoWalletWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0A8650C2C5D235E005827D1 /* Debug */,
+				E0A8650D2C5D235E005827D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
