@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "Ewano_Butterfly.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
